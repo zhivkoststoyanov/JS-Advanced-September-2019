@@ -14,13 +14,15 @@
 //     .join("\n")
 // )
 
+//-------------------------------------------------------------------------
 //	*Words Uppercase
 
-function solve(str){
+// function solve(str){
 
-    return str.match(/\w+/gim).map(x=>x.toUpperCase()).join(", ");
-}
+//     return str.match(/\w+/gim).map(x=>x.toUpperCase()).join(", ");
+// }
 
-console.log(
-    solve('Hi, how are you?')
-);
+// console.log(
+//     solve('Hi, how are you?')
+// );
+
