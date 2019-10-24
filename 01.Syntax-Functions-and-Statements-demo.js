@@ -26,3 +26,29 @@
 //     solve('Hi, how are you?')
 // );
 
+//Exercise
+//Task 3 - Same Numbers
+
+function myFunc(number) {
+    let digits = number.toString().split('');
+    let realDigits = digits.map(Number);
+    //console.log(typeof(realDigits));
+    let result = 0;
+    let text = "";
+
+    //console.log(realDigits);
+
+    for (let i in realDigits) {
+        if (realDigits[i] === realDigits[0]) {
+            text = "true\n";
+        } else {
+            text = "false\n";
+        }
+        result += realDigits[i];
+    }
+    return console.log(text, result);
+
+}
+
+
+myFunc(33335);
